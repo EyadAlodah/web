@@ -11,4 +11,4 @@
 ### Assess app changes that would change your decision.
 
 *However, In future our app could get bigger and we might need to use and develop more services to enahnce our CMS website.* 
-*So we can could our cloud computing plan to VM to meet our needs and satisfy the different requierments of our CMS system such as more CPU, RAM and storage* 
+*So we could change our cloud computing plan to VM to meet our needs and satisfy the different requierments of our CMS system such as more CPU, RAM and storage* 
