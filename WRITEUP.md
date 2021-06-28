@@ -1,8 +1,8 @@
-# Write-up Template
+# Write-up for CMS system 
 
 ### Analyze, choose, and justify the appropriate resource option for deploying the app.
 
-*We are going to use App services insted of VM because of these reasons:
+*We are going to use App services insted of VM because for these reasons:*
 - *App services will provide us with High availability and vertical scalability for our small application.* 
 - *App services it will help to start quickly and deploy our app faster, and this what we need in a new web app.* 
 - *Our CMS currently is a lightweight and does not contains to many proceeses and requests and it can be satisfied by App services*
