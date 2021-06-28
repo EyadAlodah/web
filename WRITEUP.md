@@ -4,7 +4,7 @@
 
 *We are going to use App services for our CMS for these reasons:*
 - *App services will provide us with High availability and vertical scalability for our small application.* 
-- *App services it will help to start quickly and deploy our app faster, and this what we need in a new web app.* 
+- *App services will help us to start quickly and deploy our app faster, and this what we need in a new web app.* 
 - *Our CMS currently is a lightweight and does not contains to many proceeses and requests and it can be satisfied by App services*
 - *Choosing App services will help us to save cost, becuase VM are more expensive*
 
