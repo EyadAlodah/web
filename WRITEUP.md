@@ -8,12 +8,16 @@
 - *Our CMS currently is a lightweight and does not contains to many proceeses and requests and it can be satisfied by App services*
 - *Choosing App services will help us to save cost, becuase VM are more expensive*
 
-*The following table shows the differences in cost between App services and VM*
+*The following tables shows the differences in cost between App services and VM for basic, standard and premium Tiers*
+
+*App Services:*
 	
-|  Solution     | Second Header | Third header |
-| ------------- | ------------- | ------------ |
-| App Services  | Content Cell  | content      |
-| Virtual Machines | Content Cell  | test         |
+|  Tier         |  instance     | Cores        | RAM          | Storage       | Monthly     |
+| ------------- | ------------- | ------------ | ------------ | ------------  | ------------|
+| Basic         | B2            | 2 cores      | 3.5 GB RAM   | 10 GB Storage | $26.28      |
+| Standard      | S2            | 2 cores      | 3.5 GB RAM   | 50 GB Storage | $138.70     |
+| Premium V2    | P2V2          | 2 cores      | 7 GB RAM     | 250 GB Storage| $168.63     |
+
 
 
 ### App changes in future.
