@@ -10,9 +10,9 @@
 
 *The following table shows the differences in cost between App services and VM*
 	
-|               | Second Header | Third header |
+|  Solution     | Second Header | Third header |
 | ------------- | ------------- | ------------ |
-| App Services | Content Cell  | content      |
+| App Services  | Content Cell  | content      |
 | Virtual Machines | Content Cell  | test         |
 
 
