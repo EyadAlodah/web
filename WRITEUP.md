@@ -10,6 +10,7 @@
 
 *The following tables shows the differences in cost between App services and VM for basic, standard and premium Tiers*
 
+
 *App Services:*
 	
 |  Tier         |  instance     | Cores        | RAM          | OS            | Storage       | Monthly     |
@@ -37,12 +38,28 @@
 |  Criteria     |                       VM            | App Service          | 
 |-------------  | ----------------------------------- | -------------        |
 | Autoscaling   | Virtual machine scale sets          | Built-in service     | 
-| Load balancer | uses azure load balancer            | integrated load balancer |
+| Load balancer | Uses azure load balancer            | integrated load balancer |
 | limit         | for the platform image it has 1000 nodes per scale set and for the custom image it has 600 nodes per scale set | 30 instances  |
 
+
+*The following tables shows the differences in Availability between the two solutions*
+
+|  Criteria     |                       VM            | App Service          | 
+|-------------  | ----------------------------------- | -------------        |
+| Availability  | Approximately 99.95% up time is guaranteed | Approximately 99.95% up time is guaranteed     | 
+| Multi region failover | Traffic manager             | Traffic manager|
+
+*Based in the availability we can see that both solutions provide high availability and uptime *
+*VM availability percentage can change based on disk type either SSD or HDD*
+
+*Based on the previous analysis, the found that App Services is the suitable solution that fulfill our needs *
 
 
 ### App changes in future.
 
 *However, In future our app could get bigger and we might need to use and develop more services to enhance our CMS website.* 
 *So we could change our cloud computing plan to VM to meet our needs and satisfy the different requierments of our CMS system such as more CPU, RAM and storage*  
+*In addition, I have used the cost analysis and created my own budget. The cost analysis gave us a hilostic view of our system, and provided us with indactions that our application can opearte seamsly with the current plan* 
+
+
+![Cost analysis](/cost_analysis.png)
