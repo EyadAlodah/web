@@ -8,7 +8,15 @@
 - *Our CMS currently is a lightweight and does not contains to many proceeses and requests and it can be satisfied by App services*
 - *Choosing App services will help us to save cost, becuase VM are more expensive*
 
+*The following table shows the differences in cost between App services and VM*
+	
+|               | Second Header | Third header |
+| ------------- | ------------- | ------------ |
+| App Services | Content Cell  | content      |
+| Virtual Machines | Content Cell  | test         |
+
+
 ### App changes in future.
 
 *However, In future our app could get bigger and we might need to use and develop more services to enhance our CMS website.* 
-*So we could change our cloud computing plan to VM to meet our needs and satisfy the different requierments of our CMS system such as more CPU, RAM and storage* 
+*So we could change our cloud computing plan to VM to meet our needs and satisfy the different requierments of our CMS system such as more CPU, RAM and storage*  
